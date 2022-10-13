@@ -5,7 +5,8 @@
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test",
-    "account": "hardhat account"
+    "account": "hardhat account",
+    "type:check": "hardhat test --typecheck"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
