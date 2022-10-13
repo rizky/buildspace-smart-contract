@@ -1,12 +1,16 @@
 {
   "dependencies": {
+    "dotenv": "^16.0.3",
     "hardhat": "^2.12.0"
   },
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test",
     "account": "hardhat account",
-    "type:check": "hardhat test --typecheck"
+    "type:check": "hardhat test --typecheck",
+    "start": "hardhat run scripts/run.ts",
+    "deploy:localhost": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:goerli": "hardhat run scripts/deploy.ts --network goerli"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",

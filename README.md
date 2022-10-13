@@ -11,3 +11,7 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
+
+Deploying contracts with account:  0x3908008123bF76771f4a57B79e132d6b048d77f3
+Account balance:  199071498493809990
+WavePortal address:  0x5bce133B6C4217E990DED22C00688F03Bb5540A5
